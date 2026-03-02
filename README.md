@@ -1,4 +1,4 @@
-# Physics informed Bayesian Optimisation for ARES Beam Tuning
+# Physics-informed Bayesian Optimisation for ARES Beam Tuning
 
 This project implements Bayesian Optimisation(BO) with a physics informed prior for tuning the transverse beam parameters on a simulation of the ARES Experimental Area at DESY. The core idea is that instead of letting the Gaussian Process(GP) start from an uninformed (zero-mean) prior, a differentiable simulation library ([Cheetah](https://github.com/desy-ml/cheetah)) is embedded directly into the GP mean function, allowing the optimiser 
 to leverage physics knowledge from the start and learn real world discrepancies online during optimisation. Quadrupole magnet misalignments are dealt under this project's usecase as the real world discrepancy. The BO implementation is used from the Xopt package. For detailed project description and analysis, feel free to refer the accompanying project report `research-project-report.pdf` available at the root of the repository.
