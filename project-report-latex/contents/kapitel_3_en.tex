@@ -287,7 +287,7 @@ For each metric, $i \in \{1,2,\ldots,10\}$, where $i$ denotes the trial index, $
     \begin{equation}
         \text{RMSE}^{(i)} = \sqrt{\frac{1}{4(T+1)} \sum_{t=0}^{T} \left( (\mu_x^{(i,t)})^2 + (\mu_y^{(i,t)})^2 + (\sigma_x^{(i,t)})^2 + (\sigma_y^{(i,t)})^2 \right)}.
     \end{equation}
-    \item \textbf{Improvement Best percentage(\%):} is the improvement measured from initial MAE to best MAE from each trial $i$, computing as $((\text{MAE}_0 - \text{MAE}_{\text{best}})/\text{MAE}_0) \times 100$.
+    \item \textbf{Improvement Best percentage(\%):} is the improvement measured from initial MAE to best MAE from each trial $i$, computing as $(((\text{MAE}_0 - \text{MAE}_{\text{best}})/\text{MAE}_0) \times 100)$.
     \item \textbf{Improvement Final percentage(\%):} is the improvement measured from initial MAE to Final (last step) MAE of each trial $i$, computing as $(((\text{MAE}_0 - \text{MAE}_{\text{final}})/\text{MAE}_0) \times 100)$.
 
     \item \textbf{Steps to target:} computes how many evaluations does it take to drop below the threshold of \SI{40}{\mu}m of MAE for the first time, this shows how quickly an optimiser gets the beam into an acceptable state.
