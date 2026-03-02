@@ -1,6 +1,6 @@
 # Physics-informed Bayesian Optimisation for ARES Beam Tuning
 
-This project implements Bayesian Optimisation(BO) with a physics informed prior for tuning the transverse beam parameters on a simulation of the ARES Experimental Area at DESY. The core idea is that instead of letting the Gaussian Process(GP) start from an uninformed (zero-mean) prior, a differentiable simulation library ([Cheetah](https://github.com/desy-ml/cheetah)) is embedded directly into the GP mean function, allowing the optimiser 
+This project implements Bayesian Optimisation(BO) with a physics-informed prior for tuning the transverse beam parameters on a simulation of the ARES Experimental Area at DESY. The core idea is that instead of letting the Gaussian Process(GP) start from an uninformed (zero-mean) prior, a differentiable simulation library ([Cheetah](https://github.com/desy-ml/cheetah)) is embedded directly into the GP mean function, allowing the optimiser 
 to leverage physics knowledge from the start and learn real world discrepancies online during optimisation. Quadrupole magnet misalignments are dealt under this project's usecase as the real world discrepancy. The BO implementation is used from the Xopt package. For detailed project description and analysis, feel free to refer the accompanying project report `research-project-report.pdf` available at the root of the repository.
 
 
@@ -9,7 +9,7 @@ to leverage physics knowledge from the start and learn real world discrepancies 
 The ARES experimental area has three quadrupole magnets (Q1, Q2 and Q3) and two steering/corrector magnets (CH, CV). We want to find magnet settings that minimize the beam error (MAE of beam position and size) at a downstream screen.
 
 ## Features
-- Physics informed GP prior mean with trainable misalignment parameters.
+- Physics-informed GP prior mean with trainable misalignment parameters.
 - Three optimisers compared: standard BO, BO with physics prior and Nelder-Mead.
 - Online misalignment learning via constrained hyperparameter optimisation.
 - Automated evaluation pipeline with metrics CSV table and publication-quality plots.
