@@ -1,0 +1,410 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{roussel2024bo}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8a572572fd44e171055509666a4a80f7}{%
+           family={Roussel},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{fullhash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{fullhashraw}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{bibnamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorbibnamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authornamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorfullhash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorfullhashraw}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review accelerators and beams}
+      \field{title}{Bayesian optimization algorithms for accelerator physics}
+      \field{year}{2024}
+    \endentry
+    \entry{boltz2025priormeanmodule}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ff65f05f716896e6027cc61306ed044d}{%
+           family={Boltz},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{fullhash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{fullhashraw}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{bibnamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorbibnamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authornamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorfullhash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorfullhashraw}{43c608ba3c97edeffcd42cf230e7a879}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Leveraging prior mean modules for faster Bayesian optimization of particle accelerators}
+      \field{year}{2025}
+    \endentry
+    \entry{kaiser2024bridging}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ae3378cc10ac0c792ed2522b421c3baf}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{bibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorbibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authornamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review accelerators and beams}
+      \field{title}{Bridging the gap between machine learning and particle accelerator physics with high-speed, differential simulations}
+      \field{year}{2024}
+    \endentry
+    \entry{kaiser2024rl}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ae3378cc10ac0c792ed2522b421c3baf}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{bibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorbibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authornamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{title}{Reinforcement learning-trained optimisers and Bayesian optimization for online particle accelerator tuning}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{DESYwebsite}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d7fdcb6bb5b81f797f48d955de910727}{%
+           family={{Deutsches Elektronen-Synchrotron DESY}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{fullhash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{fullhashraw}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{bibnamehash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{authorbibnamehash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{authornamehash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{authorfullhash}{d7fdcb6bb5b81f797f48d955de910727}
+      \strng{authorfullhashraw}{d7fdcb6bb5b81f797f48d955de910727}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DESY - Homepage}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://desy.de/
+      \endverb
+      \verb{url}
+      \verb https://desy.de/
+      \endverb
+    \endentry
+    \entry{nelder1965simplex}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=525c6028cf4d63e0a127c938f328602d}{%
+           family={Nelder},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=91a0b19e58e55cb7bd2312a47594f4bb}{%
+           family={Mead},
+           familyi={M\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{fullhash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{fullhashraw}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{bibnamehash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{authorbibnamehash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{authornamehash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{authorfullhash}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \strng{authorfullhashraw}{5434e5ce82e6e1d0dc5f12712d12589c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Computer Journal}
+      \field{title}{A simplex method for function minimization}
+      \field{year}{1965}
+    \endentry
+    \entry{kaiser2024rl}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ae3378cc10ac0c792ed2522b421c3baf}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{bibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorbibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authornamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{title}{Reinforcement learning-trained optimisers and Bayesian optimization for online particle accelerator tuning}
+      \field{year}{2024}
+    \endentry
+    \entry{roussel2024bo}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8a572572fd44e171055509666a4a80f7}{%
+           family={Roussel},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{fullhash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{fullhashraw}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{bibnamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorbibnamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authornamehash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorfullhash}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \strng{authorfullhashraw}{8b6d96c60b05c7d00bd54fbddc224b3d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review accelerators and beams}
+      \field{title}{Bayesian optimization algorithms for accelerator physics}
+      \field{year}{2024}
+    \endentry
+    \entry{jalas2021bolaserplasma}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=cb3da80719dec22592439039aefe342d}{%
+           family={Jalas},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{fullhash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{fullhashraw}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{bibnamehash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{authorbibnamehash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{authornamehash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{authorfullhash}{b425efe39c0b9478a5da0963a9b0654e}
+      \strng{authorfullhashraw}{b425efe39c0b9478a5da0963a9b0654e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{title}{Bayesian optimization of a laser-plasma accelerator}
+      \field{year}{2021}
+    \endentry
+    \entry{Duris2020bofreelectron}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=611e12bcf3440ab8ee3e47cc33c56c3c}{%
+           family={Duris},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{fullhash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{fullhashraw}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{bibnamehash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{authorbibnamehash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{authornamehash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{authorfullhash}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \strng{authorfullhashraw}{7a87134aa9ba1bf3bb6feba73ce464a0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{title}{Bayesian optimization of a free-electron laser}
+      \field{year}{2020}
+    \endentry
+    \entry{kaiser2024bridging}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ae3378cc10ac0c792ed2522b421c3baf}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{fullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{bibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorbibnamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authornamehash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhash}{a8b8122508c18fdf542568fc1c256caa}
+      \strng{authorfullhashraw}{a8b8122508c18fdf542568fc1c256caa}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review accelerators and beams}
+      \field{title}{Bridging the gap between machine learning and particle accelerator physics with high-speed, differential simulations}
+      \field{year}{2024}
+    \endentry
+    \entry{boltz2025priormeanmodule}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ff65f05f716896e6027cc61306ed044d}{%
+           family={Boltz},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{fullhash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{fullhashraw}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{bibnamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorbibnamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authornamehash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorfullhash}{43c608ba3c97edeffcd42cf230e7a879}
+      \strng{authorfullhashraw}{43c608ba3c97edeffcd42cf230e7a879}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Leveraging prior mean modules for faster Bayesian optimization of particle accelerators}
+      \field{year}{2025}
+    \endentry
+    \entry{madx2023}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=70f9cf311b4882e5e271f90a5dec7302}{%
+           family={Deniau},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{fullhash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{fullhashraw}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{bibnamehash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{authorbibnamehash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{authornamehash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{authorfullhash}{70f9cf311b4882e5e271f90a5dec7302}
+      \strng{authorfullhashraw}{70f9cf311b4882e5e271f90a5dec7302}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MethodicalAcceleratorDesign/MAD-X: 5.09.01}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.10255261
+      \endverb
+    \endentry
+    \entry{elegant2000}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=688b46d418b199aaedb1565b86f83e41}{%
+           family={Borland},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Advanced Photon Source}%
+      }
+      \strng{namehash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{fullhash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{fullhashraw}{688b46d418b199aaedb1565b86f83e41}
+      \strng{bibnamehash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{authorbibnamehash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{authornamehash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{authorfullhash}{688b46d418b199aaedb1565b86f83e41}
+      \strng{authorfullhashraw}{688b46d418b199aaedb1565b86f83e41}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{elegant: A Flexible SDDS-Compliant Code for Accelerator Simulation}
+      \field{type}{techreport}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

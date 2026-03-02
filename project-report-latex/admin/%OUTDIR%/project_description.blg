@@ -1,0 +1,4 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is '%OUTDIR%/project_description.blg'
+[527] biber-MSWIN64:342> INFO - === 
+[687] Biber.pm:421> INFO - Reading '%OUTDIR%/project_description.bcf'
