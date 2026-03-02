@@ -1,7 +1,7 @@
 # Physics informed Bayesian Optimisation for ARES Beam Tuning
 
 This project implements Bayesian Optimisation(BO) with a physics informed prior for tuning the transverse beam parameters on a simulation of the ARES Experimental Area at DESY. The core idea is that instead of letting the Gaussian Process(GP) start from an uninformed (zero-mean) prior, a differentiable simulation library ([Cheetah](https://github.com/desy-ml/cheetah)) is embedded directly into the GP mean function, allowing the optimiser 
-to leverage physics knowledge from the start and learn real world discrepancies online during optimisation. Quadrupole magnet misalignments are dealt under this project's usecase as the real world discrepancy. The BO implementation is used from the Xopt package. For detailed project description and analysis, feel free to refer the accompanying project report in this repository.
+to leverage physics knowledge from the start and learn real world discrepancies online during optimisation. Quadrupole magnet misalignments are dealt under this project's usecase as the real world discrepancy. The BO implementation is used from the Xopt package. For detailed project description and analysis, feel free to refer the accompanying project report `research-project-report.pdf` available at the root of the repository.
 
 
 ## What this does
@@ -18,13 +18,15 @@ The ARES experimental area has three quadrupole magnets (Q1, Q2 and Q3) and two 
 ## Folder Structure
 
 - `bo_cheetah_prior_ares.py` Cheetah simulation wrapper and `ARESPriorMean` GP mean module
-  - `eval_ares.py` Main optimisation script (BO/BO+prior/Nelder-Mead via Xopt)
-- `eval_ares_metrics.py` Evaluation metrics (Best MAE, Final MAE, RMSE, Improvement% (over Best MAE), Improvement% (over Final MAE), steps to target and success rate)
+- `eval_ares.py` Main optimisation script (BO/BO+prior/Nelder-Mead via Xopt)
+- `eval_ares_metrics.py` Aggregated evaluation metrics (Best MAE, Final MAE, RMSE, Improvement% (over Best MAE), Improvement% (over Final MAE), steps to target and success rate)
 - `plot_ares_results.py` Convergence curves plot, box plots and scatter plot.
 - `ARESlatticeStage3v1_9.json` ARES lattice in json format used to load Ares Experimental Area subsection.
-- `run_evaluation.py` End-to-end evaluation: metrics table (CSV) and plots (PDFs) 
+- `run_evaluation.py` End-to-end evaluation, metrics table (CSV) and plots (PDFs) 
 - `data/` stores the Xopt run results (`pd.Dataframe`) as CSV files.
-- `results/` stores all the results generated in the form of plots(PDFs) and metrics result table (CSV file)
+- `results/` stores all the results generated in the form of plots(PDFs) and aggregated metrics result table (CSV file)
+- `research-project-report.pdf` Complete project report
+- `project-report-latex/` contains the LaTeX code of the project report generated
 
 ## Installataion
 
